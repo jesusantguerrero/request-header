@@ -1,14 +1,11 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
+  "name": "header-reques-microservice",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "API to get info about the client and show it as json",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "local-dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.16.2"
